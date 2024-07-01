@@ -1,0 +1,4 @@
+ny,my,ay=map(int,input().split())
+ny=(ny//ay)+(ny%ay!=0)
+my=(my//ay)+(my%ay!=0)
+print(ny*my)

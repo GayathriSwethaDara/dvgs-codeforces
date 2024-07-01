@@ -1,0 +1,21 @@
+import java.util.*;
+public class Dvgs {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int ty=sc.nextInt();
+        for(int k=0;k<ty;k++){
+            int ay=sc.nextInt();
+            int by=sc.nextInt();
+            int cy=sc.nextInt();
+            if((ay+by)==cy || (by+cy)==ay || (cy+ay)==by)
+                System.out.println("YES");
+            else
+                System.out.println("NO");
+        }
+        sc.close();
+    }
+}
+
+
+
+

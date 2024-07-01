@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+      int abvbfb,bhrhjk;
+      scanf("%d %d",&abvbfb,&bhrhjk);
+      for(int i=1;i<100;i++)
+      {
+            abvbfb=abvbfb*3;
+            bhrhjk=bhrhjk*2;
+            if((abvbfb)>(bhrhjk))
+            {
+                  printf("%d",i);
+                  break;
+            }
+            else
+                  continue;
+      }
+      return 0;
+}

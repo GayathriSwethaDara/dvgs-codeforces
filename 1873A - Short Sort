@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include<stdlib.h>
+#include<math.h>
+#include<stdbool.h>
+bool cal(char sy[]);
+int main() {
+    int ty;
+    scanf("%d",&ty);
+    while(ty-->0){
+        char sy[4];
+        scanf("%s", sy);
+        if(cal(sy)) printf("YES\n");
+        else printf("NO\n");
+    }
+    return 0;
+}
+bool cal(char sy[]){
+    if(sy[0]=='a' || sy[1]=='b' || sy[2]=='c') return true;
+    else return false;
+}

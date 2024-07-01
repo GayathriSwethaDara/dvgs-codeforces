@@ -1,0 +1,23 @@
+import java.util.*;
+public class Dvgs {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int ty=sc.nextInt();
+        for(int k=0;k<ty;k++){
+            int ay=sc.nextInt();
+            int by=sc.nextInt();
+            int cy=sc.nextInt();
+            int dy=sc.nextInt();
+            int b=0,c=0,d=0;
+            if(by>ay) b++;
+            if(cy>ay) c++;
+            if(dy>ay) d++;
+            System.out.println(b+c+d);
+        }
+        sc.close();
+    }
+}
+
+
+
+

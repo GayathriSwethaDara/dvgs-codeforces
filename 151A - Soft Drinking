@@ -1,0 +1,25 @@
+import java.util.*;
+import java.lang.Math;
+public class Solution
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int k=sc.nextInt();
+        int l=sc.nextInt();
+        int c=sc.nextInt();
+        int d=sc.nextInt();
+        int p=sc.nextInt();
+        int nl=sc.nextInt();
+        int np=sc.nextInt();
+        int r1=k*l;
+        int r2=r1/nl;
+        int r3=c*d;
+        int r4=p/np;
+        int r5=Math.min(r2,r3);
+        int r6=Math.min(r5,r4);
+        System.out.println(r6/n);
+        sc.close();
+    }
+}

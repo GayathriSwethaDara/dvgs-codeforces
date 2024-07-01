@@ -1,0 +1,23 @@
+import java.util.*;
+import java.lang.*;
+public class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        int a1=Math.abs(a-b);
+        int a2=Math.abs(a-c);
+        int b1=Math.abs(b-a);
+        int b2=Math.abs(b-c);
+        int c1=Math.abs(a-c);
+        int c2=Math.abs(c-b);
+        int a3=a1+a2;
+        int b3=b1+b2;
+        int c3=c1+c2;
+        int r1=Math.min(a3,b3);
+        int r2=Math.min(r1,c3);
+        System.out.println(r2);
+        sc.close();
+    }
+}

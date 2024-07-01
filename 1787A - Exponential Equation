@@ -1,0 +1,21 @@
+#include<stdio.h>
+void equAtIon(long long);
+int main()
+{
+      int tbdvhbj;
+      scanf("%d",&tbdvhbj);
+      for(int k=0;k<tbdvhbj;k++)
+      {
+            long long nbhbhdk;
+            scanf("%lld",&nbhbhdk);
+            equAtIon(nbhbhdk);
+      }
+      return 0;
+}
+void equAtIon(long long nbhbhdk)
+{
+      if(nbhbhdk%2)
+            printf("-1\n");
+      else
+            printf("1 %lld\n",(nbhbhdk/2));
+}

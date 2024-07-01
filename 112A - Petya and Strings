@@ -1,0 +1,19 @@
+import java.util.*;
+public class Petya
+{
+      public static void main(String args[])
+      {
+            Scanner sc=new Scanner(System.in);
+            String shbvhb1=sc.next();
+            String sbhvf2=sc.next();
+            shbvhb1=shbvhb1.toLowerCase();
+            sbhvf2=sbhvf2.toLowerCase();
+            if(shbvhb1.compareTo(sbhvf2)==0)
+                  System.out.println("0");
+            else if(shbvhb1.compareTo(sbhvf2)>0)
+                  System.out.println("1");
+            else if(shbvhb1.compareTo(sbhvf2)<0)
+                  System.out.println("-1");
+            sc.close();
+      }
+}

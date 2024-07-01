@@ -1,0 +1,20 @@
+import java.util.*;
+public class Gravity
+{
+      public static void main(String args[])
+      {
+            Scanner sc=new Scanner(System.in);
+            int nvvdhj=sc.nextInt();
+            int[] ahcgh=new int[nvvdhj];
+            for(int i=0;i<nvvdhj;i++)
+            {
+                  ahcgh[i]=sc.nextInt();
+            }
+            Arrays.sort(ahcgh);
+            for(int j=0;j<nvvdhj;j++)
+            {
+                  System.out.print(ahcgh[j]+" ");
+            }
+            sc.close();
+      }
+}

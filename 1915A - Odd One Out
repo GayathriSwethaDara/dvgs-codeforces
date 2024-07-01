@@ -1,0 +1,17 @@
+#include <stdio.h>
+int cal(int,int,int);
+int main(){
+    int tf;
+    scanf("%d",&tf);
+    while(tf-->0){
+        int af,bf,cf;
+        scanf("%d %d %d",&af,&bf,&cf);
+        printf("%d\n",cal(af,bf,cf));
+    }
+    return 0;
+}
+int cal(int af,int bf,int cf){
+    if(af==bf) return cf;
+    else if(bf==cf) return af;
+    else return bf;
+}

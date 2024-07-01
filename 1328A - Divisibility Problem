@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int tbvbvdb;
+    cin>>tbvbvdb;
+    for(int i=0;i<tbvbvdb;i++)
+    {
+        long long int abvfvh,bvbfvhb;
+        cin>>abvfvh>>bvbfvhb;
+        if(abvfvh%bvbfvhb==0)
+            cout<<"0"<<endl;
+        else
+            cout<<bvbfvhb-(abvfvh%bvbfvhb)<<endl;
+    }
+    return 0;
+}

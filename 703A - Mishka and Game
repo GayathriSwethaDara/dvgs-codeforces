@@ -1,0 +1,23 @@
+import java.util.*;
+public class Dvgs {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int ty=sc.nextInt();
+        int m=0,c=0,d=0;
+        for(int k=0;k<ty;k++){
+            int ay=sc.nextInt();
+            int by=sc.nextInt();
+            if(ay>by) m++;
+            else if(by>ay) c++;
+            else d++;
+        }
+        if(m>c) System.out.println("Mishka");
+        else if(m<c) System.out.println("Chris");
+        else  System.out.println("Friendship is magic!^^");
+        sc.close();
+    }
+}
+
+
+
+

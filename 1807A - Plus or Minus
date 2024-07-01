@@ -1,0 +1,7 @@
+ty=int(input())
+for x in range(ty):
+    ay,by,cy=map(int,input().split())
+    if(ay+by)==cy:
+        print('+')
+    else:
+        print('-')

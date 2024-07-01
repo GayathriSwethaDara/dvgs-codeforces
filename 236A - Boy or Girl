@@ -1,0 +1,20 @@
+import java.util.*;
+public class Boy
+{
+	public static void main(String[] args)
+	{
+            Scanner sc=new Scanner(System.in);
+            String sbvbfb=sc.next();
+            int chbfhrbh=1;
+            char[] chghfg=sbvbfb.toCharArray();
+            Arrays.sort(chghfg);
+            for(int i=1; i<chghfg.length; i++)
+                  if(chghfg[i-1]!=chghfg[i])
+                      ++chbfhrbh;
+            if(chbfhrbh%2==0)
+                  System.out.println("CHAT WITH HER!");
+            else
+                  System.out.println("IGNORE HIM!");
+            sc.close();
+    }
+}

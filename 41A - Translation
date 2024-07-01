@@ -1,0 +1,34 @@
+import java.util.*;
+public class Translation
+{
+      public static void main(String args[])
+      {
+            Scanner sc=new Scanner(System.in);
+            String sbhhk=sc.next();
+            String rcbdbj=sc.next();
+            String nfhjhj="";
+            int count=0;
+            for(int i=0;i<sbhhk.length();i++)
+            {
+                  char chhfjhk=sbhhk.charAt(i);
+                  nfhjhj=chhfjhk+nfhjhj;
+            }
+            if(rcbdbj.length()<=sbhhk.length())
+            {
+                  for(int j=0;j<rcbdbj.length();j++)
+                  {
+                        char chyueyi=rcbdbj.charAt(j);
+                        char cuywuok=nfhjhj.charAt(j);
+                        if(chyueyi==cuywuok)
+                              count++;
+                  }
+                  if(count==rcbdbj.length())
+                        System.out.println("YES");
+                  else
+                        System.out.println("NO"); 
+            }
+            else
+                 System.out.println("NO"); 
+            sc.close();
+      }
+}

@@ -1,0 +1,21 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+public class Dvgs {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int ty=sc.nextInt();
+        for(int k=0;k<ty;k++){
+            String sy=sc.next();
+            if(sy.equals("yES") || sy.equals("YES") || sy.equals("yes") || sy.equals("Yes") || sy.equals("YeS") || sy.equals("yeS") || sy.equals("YEs") || sy.equals("yEs"))
+                System.out.println("YES");
+            else
+                System.out.println("NO");
+        }
+        sc.close();
+    }
+}
+
+
+
+
